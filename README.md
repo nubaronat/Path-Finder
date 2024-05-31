@@ -1,9 +1,13 @@
 # Path-Finder
+
 The Shortest Path Finder program addresses the problem of finding the most efficient route between two cities in a geographical network. This program employs the Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms to determine the shortest paths and distances. The goal is to assist in navigation and decision-making, particularly in scenarios where distances between cities are represented by a weighted graph.
+
 Breadth-First Search (BFS):
 BFS is a graph traversal algorithm that explores all the vertices at the current depth before moving on to the next level. In the context of the Shortest Path Finder, BFS is utilized to find the shortest path between the source and destination cities. It employs a queue to explore neighboring cities systematically, ensuring the shortest path is discovered first.
+
 Depth-First Search (DFS):
 DFS explores as far as possible along each branch before backtracking. In the Shortest Path Finder, DFS is applied to find the shortest path between the source and destination cities. It uses a stack to maintain a systematic exploration of cities, possibly discovering shorter paths through backtracking
+
 Conclusion:
 In conclusion, the Shortest Path Finder program effectively utilizes BFS and DFS to determine the shortest paths and distances between cities in a weighted graph. The implementation provides a solid foundation for navigation in geographical networks. However, addressing limitations and incorporating potential improvements would enhance the program's robustness and flexibility.
 Outputs:
